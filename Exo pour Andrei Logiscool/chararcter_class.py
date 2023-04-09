@@ -18,6 +18,7 @@ class thing():
         with open(filename, 'r') as f:
             for line in f:
                 print(line)
-    def write_file(self, filename):
-        with open(filename, 'w') as f:
-            f.write(f"Hello world! My name is {self.name} and I am {self.color}.")
+    def write_to_file(self, filename,mode):
+        #mode = 'w' for write, 'a' for append
+        with open(filename, mode) as f:
+            f.write(f"Hello world! My name is {self.name} and I am {self.color}. \n")

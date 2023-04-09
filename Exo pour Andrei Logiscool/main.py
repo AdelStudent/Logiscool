@@ -9,4 +9,5 @@ ma_couleur = "red"
 my_thing1 = thing(mon_ID,mon_nom,mes_voisins,ma_couleur); #Create a thing
 my_thing1.presented_itself();
 
-my_thing1.write_file("test.txt")
+my_thing1.write_to_file("test.txt","w")
+my_thing1.write_to_file("test.txt","a")
