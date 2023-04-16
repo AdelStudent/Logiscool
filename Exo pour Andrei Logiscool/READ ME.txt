@@ -1,0 +1,7 @@
+# Logiscool
+
+1er projet de base: En partant d'une matrice de distance de 5 villes, détermine le chemin le plus court pour traverser TOUTES les villes et retourner à la ville initiale. Tu n'as le droit de ne passer qu'une fois par ville. Tu dois commencer avec la ville_1 et terminer avec la ville_1.
+
+Pour la matrice des distances, tu vas devoir la créer de manière random ET la sauvegarder dans un fichier text. Les run suivantes se baseront sur la matrice générée au début (en gros, tu crées une fois une matrice que tu sauvegarde et après, tu ne fais QUE lire le fichier texte). Cette exo t'apprendra à lire des fichiers et recréer un matrice [liste de liste]
+
+Allez amuse toi, bien!
